@@ -1,32 +1,17 @@
-// create variables for your repeated values
-//at minimum for fonts, breakpoints and colors
-
-
+// My Variables
 
 
 //colors
 $white: #ffffff;
-
 $color-primary:#58E1C1; //green circle
 $color-secondary:#51DDFC; //blue circle and default button
-
 $color-success:#63CC82; //green
 $color-error:#E4757A; //red
 $color-warning:#FD7856; //orange
 $color-info:#927BC1; //dark purple
 
 
-
 //breakpoints & media queries
 
-$breakpoints: (
-  'm': 768px,
-  'l': 1400px,
-);
+$mediumbreakpoint: 768px;
 
-// widths
-
-$max-width: 1200px;
-
-//gutter
-$gutter: 10px;

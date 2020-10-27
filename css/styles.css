@@ -2,7 +2,7 @@
 /*              Typography                       */
 /* ============================================= */
 .headline-primary {
-  color: #58e1c1;
+  color: #2e3a37;
   margin-left: 10px;
 }
 
@@ -22,7 +22,7 @@
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  border-left: 8px solid #58E1C1;
   border-radius: 5px;
 }
 
@@ -50,7 +50,7 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: #ffffff;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -58,23 +58,23 @@ a {
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: #51DDFC;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: #E4757A;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: #927BC1;
 }
 
 .success {
-  background-color: #63cc82;
+  background-color: #63CC82;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: #FD7856;
 }
 
 /* ============================================= */
@@ -91,7 +91,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid #58E1C1;
 }
 
 .hidden {
@@ -131,11 +131,11 @@ a {
 }
 
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: #927BC1;
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: #FD7856;
 }
 
 .theme.col-3 {
@@ -163,15 +163,15 @@ a {
 }
 
 .theme.col-9 {
-  background-color: #e4757a;
+  background-color: #E4757A;
 }
 
 .theme.col-10 {
-  background-color: #63cc82;
+  background-color: #63CC82;
 }
 
 .theme.col-11 {
-  background-color: #51ddfc;
+  background-color: #51DDFC;
 }
 
 .theme.col-12 {
@@ -210,8 +210,8 @@ a {
 }
 
 .nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
+  color: #ffffff;
+  background-color: #58E1C1;
 }
 
 /* ============================================= */
