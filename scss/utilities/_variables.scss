@@ -2,10 +2,7 @@
 //at minimum for fonts, breakpoints and colors
 
 
-// font stack
 
-$font-stack-primary:'Open Sans', sans-serif;
-$font-stack-secondary:'Montserrat', sans-serif;
 
 //colors
 $white: #ffffff;
@@ -18,15 +15,11 @@ $color-error:#E4757A; //red
 $color-warning:#FD7856; //orange
 $color-info:#927BC1; //dark purple
 
-$color-theme1:#3FABCA; //darker blue
-$color-theme2:#DEB2EE; //light purple
 
-$color-text: #797979;
 
 //breakpoints & media queries
 
 $breakpoints: (
-  's': 480px,
   'm': 768px,
   'l': 1400px,
 );
