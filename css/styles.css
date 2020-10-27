@@ -83,7 +83,6 @@ a {
 .form {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  background-color: blue;
 }
 
 .input {
