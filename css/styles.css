@@ -57,23 +57,23 @@ a {
   border-radius: 5px;
 }
 
-.default {
+.btn .default {
   background-color: #51DDFC;
 }
 
-.error {
+.btn .error {
   background-color: #E4757A;
 }
 
-.info {
+.btn .info {
   background-color: #927BC1;
 }
 
-.success {
+.btn .success {
   background-color: #63CC82;
 }
 
-.warning {
+.btn .warning {
   background-color: #FD7856;
 }
 
