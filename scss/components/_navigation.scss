@@ -22,5 +22,5 @@
   
   .nav-link:hover {
     color: $white;
-    background-color: $color-primary;
+    background-color: darken($color: $color-primary, $amount: 40%);
   }

@@ -1,50 +1,4 @@
 /* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-.headline-primary {
-  color: #2e3a37;
-  margin-left: 10px;
-}
-
-.headline-secondary {
-  font-weight: 300;
-  color: #777;
-}
-
-.link {
-  color: #51ddfc;
-  font-weight: 700;
-}
-
-.blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58E1C1;
-  border-radius: 5px;
-}
-
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-* {
-  font-family: 'Lato', sans-serif;
-  color: #777;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-p {
-  line-height: 1.45em;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 .btn {
@@ -57,23 +11,23 @@ a {
   border-radius: 5px;
 }
 
-.btn .default {
+.default {
   background-color: #51DDFC;
 }
 
-.btn .error {
+.error {
   background-color: #E4757A;
 }
 
-.btn .info {
+.info {
   background-color: #927BC1;
 }
 
-.btn .success {
+.success {
   background-color: #63CC82;
 }
 
-.btn .warning {
+.warning {
   background-color: #FD7856;
 }
 
@@ -211,7 +165,7 @@ a {
 
 .nav-link:hover {
   color: #ffffff;
-  background-color: #58E1C1;
+  background-color: #115c4b;
 }
 
 /* ============================================= */
@@ -352,5 +306,51 @@ a {
     margin-left: initial;
     margin-right: initial;
   }
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+.headline-primary {
+  color: #58E1C1;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58E1C1;
+  border-radius: 5px;
+}
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */
