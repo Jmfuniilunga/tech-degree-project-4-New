@@ -1,105 +1,193 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: $mediumbreakpoint) {
 
-.container {
-  max-width: 1400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 414px) {
+  .artwork{
+
+    min-width:32%;
+  
+}
+}
+@media only screen and (max-width: 768px) and (min-width: 415px){
+.artwork{
+  min-width: 26% !important;
+}
 }
 
-.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    
+@media (min-width: 768px) {
+
+  .main-nav .name {
+    font-size: 26px !important;
+  }
+.main-nav li{
+  margin-bottom: 30px !important;
+}
+.main-nav a{
+font-size: 19px !important;
+color:red;
+}
+input {
+  padding: 12px !important;
+
 }
 
-.row {
-  flex-direction: row;
-}
+    .content-title{
+      font-size: 19px;
 
-[class^=col] {
+    }
+    .artwork{
+      min-width: 17% !important;
+    }
+
+}
+    
+@media (min-width: 1440px) {
+
+.main-nav{
   display: flex;
-  justify-content: center;
-  margin-top: 0;
-  align-items: center;
-}
-
-[class^=col] + [class^=col] {
-  margin-left: 10px;
-}
-
-.col-1 {
-  flex-basis: 8.33%;
-}
-
-.col-2 {
-  flex-basis: 16.67%;
-}
-
-.col-3 {
-  flex-basis: 25.00%;
-}
-
-.col-4 {
-  flex-basis: 33.33%;
-}
-
-.col-5 {
-  flex-basis: 41.67%;
-}
-
-.col-6 {
-  flex-basis: 50.00%;
-}
-
-.col-7 {
-  flex-basis: 58.33%;
-}
-
-.col-8 {
-  flex-basis: 66.67%;
-}
-
-.col-9 {
-  flex-basis: 75.00%
-}
-
-.col-10 {
-  flex-basis: 83.33%;
-}
-
-.col-11 {
-  flex-basis: 91.67%;
-}
-
-.col-12 {
-  flex-basis: 100%;
-}
-
-.nav {
   flex-direction: row;
-  justify-content: flex-end;
   align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  margin: 0 auto; 
+  
+
+}
+.top-nav .language p{
+  padding-left: 50px !important;
 }
 
-.nav-link {
-  flex-basis: 100px;
+.social{
+ margin-right:50px !important;
+}
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    display: inline-flex;
+    padding: 25px;
+   
+}
+.main-nav .name {
+  display: block;
+  padding-left:35px !important;
+  font-size: 26px !important;
+  font-weight: normal;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+  margin-right: 79px;
 }
 
-.btn {
-  padding: 10px 30px;
+
+.main-nav a{
+  font-size: 18px;
+}
+.the-form{
+  width: 100%;
+  margin-top: 20px;
+  margin: 0px 0 0px 0 !important;
 }
 
-.btn + .btn {
-  margin-left: 10px;
+.main-nav form{
+  margin-bottom: 0px !important;
 }
 
-.logo {
-  margin-left: initial;
-  margin-right: initial;
-}
+input {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fafafa;
+  border: none !important;
+  }
+  .main-nav li {
+    display: block;
+    margin-bottom: 0px !important;
+    margin-right: 20px;
+    margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    }
+    
+    .form{
+      width: 30%;
+      display: flex;
+      justify-content:flex-end;
+      align-content: center;
+    }
+ 
 
+    .main-box{
+   
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 78%;
+      margin: 0 auto;
+    
+ 
+  }
+  .header{
+    margin-bottom: 30px !important;
+   
+  }
+  
+.content-box{
+
+  overflow: auto;
+  box-sizing: border-box;
+
+}
+  
+  .artwork{
+   min-width: 15% !important;
+  }
+  .content-title{
+    font-size: 21px !important;
+  
+  }
+
+  .artist-album{
+   
+    white-space: nowrap; 
+    width: 150px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  
+    
+    }
+    .artist-name{
+   
+    white-space: nowrap; 
+    width: 150px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    
+    }
+
+
+
+  .main, .aside{
+      
+    
+      margin-left: auto;
+  
+  }
+  .main{
+   width: 70% !important;
+    margin-right: 30px;
+   
+   
+  }
+  .aside{
+    width: 30% !important;
+   
+
+   
+  }
+
+ 
 }

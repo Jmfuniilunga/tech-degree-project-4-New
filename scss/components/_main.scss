@@ -1,0 +1,87 @@
+/* ============================================= */
+/*              Main                   */
+/* ============================================= */
+.main-box{
+  
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+.main, .aside{
+    width: 98%;
+   
+    margin-left: auto;
+
+}
+.title-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 8px;
+    
+
+}
+.content-title{
+font-size: 18px;
+color: #333333;
+margin-right: auto;
+margin-bottom: 5px;
+}
+
+.see-all-links{
+    font-size: 14px;
+    color: #333333;
+    padding-right: 7px;
+}
+.see-all-links:hover{
+    color: darken($color: #000000, $amount: 100%);
+    text-decoration: underline;
+}
+.content-box{
+    width: 100%;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+overflow: auto;
+margin-bottom: 20px;
+
+}
+.artwork{
+
+    min-width:40%;
+    margin-right: 10px;
+}
+.artwork img{
+    width: 100%;
+    height: auto;
+}
+.artist-album{
+display: block;
+color: #000000;
+padding: 3px 0 2px 0;
+white-space: nowrap; 
+width: 110px; 
+overflow: hidden;
+text-overflow: ellipsis; 
+
+
+
+}
+.artist-name{
+display: block;
+color: lighten($color: #000000, $amount: 40%);
+font-size: 14px;
+padding-bottom: 10px;
+white-space: nowrap; 
+width: 110px; 
+overflow: hidden;
+text-overflow: ellipsis; 
+
+}
+
+.content-box a:hover{
+    text-decoration: underline;
+}
